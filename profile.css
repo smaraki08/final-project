@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f0ea;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    flex: 1;
+    text-align: center;
+}
+
+.contact-us {
+    position: absolute;
+    right: 0;
+    padding: 5px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b19999;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 85px;
+    background-color: #9c8d8d;
+}
+
+.profile-image {
+    position: relative;
+    top: 25px; /* half of the profile header height */
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.profile-details {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.form-group-inline {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+input[disabled] {
+    background-color: #e9ecef;
+}
+
+.edit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 10px;
+}
